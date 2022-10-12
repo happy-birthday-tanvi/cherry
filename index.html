@@ -12,7 +12,11 @@
 </head>
 
 <body>
-  <audio src="song/song.mp3"/>
+  <audio id="audioID" loop> <source src="song/song.mp3"  type="audio/mp3"></audio>
+
+<script>
+var myaudio = document.getElementById("audioID").autoplay = true;
+</script>
   <div class="container">
     <div class="one">
       <h1 class="one">
